@@ -260,8 +260,8 @@ hr {
       div {
         padding: 5rem;
         img {
-          width: 25vh;
-          height: 25vh;
+          width: 15vw;
+          height: 15vw;
           object-fit: fill;
           object-position: center;
           border-radius: 50%;
@@ -357,6 +357,7 @@ footer {
     background-size: cover;
     img {
       height: 100%;
+      max-width: 60%;
     }
   }
   .contact-us {
@@ -410,19 +411,38 @@ footer {
   }
 }
 
-// @media screen and (max-width: 480px) {
-//   html,
-//   :root {
-//     font-size: 5px;
-//   }
-// }
+@media screen and (max-width: 480px) {
+  html,
+  :root {
+    font-size: 5px;
+  }
 
-// @media screen and (max-width: 768px) {
-//   html,
-//   :root {
-//     font-size: 6px;
-//   }
-// }
+  .first-box {
+    height: 30vh;
+    margin-bottom: 0;
+  }
+
+  .sec-box {
+  }
+
+  .third-box {
+  }
+
+  .fourth-box {
+  }
+
+  .fifth-box {
+  }
+  .sixth-box {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  :root {
+    font-size: 6px;
+  }
+}
 
 // @media screen and (max-width: 1024px) {
 //   html,
@@ -452,16 +472,16 @@ footer {
 //   }
 // }
 
-// @media screen and (max-width: 1200px) {
-//   html,
-//   :root {
-//     font-size: 9px;
-//   }
-// }
+@media screen and (max-width: 1200px) {
+  html,
+  :root {
+    font-size: 9px;
+  }
+}
 
-// @media screen and (min-width: 480px) {
-//   html,
-//   :root {
-//     font-size: 10px;
-//   }
-// }
+@media screen and (min-width: 480px) {
+  html,
+  :root {
+    font-size: 10px;
+  }
+}
