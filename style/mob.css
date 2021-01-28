@@ -8,6 +8,7 @@
 html {
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -97,8 +98,8 @@ hr {
 }
 
 .sec-box h1 {
-  font-size: 3rem;
-  padding: 4rem 0;
+  font-size: 2.6rem;
+  padding: 5rem 0;
 }
 
 .sec-box h3 {
@@ -107,9 +108,9 @@ hr {
 }
 
 .sec-box h5 {
-  font-size: 1.4rem;
+  font-size: 8rem;
   padding: 4rem 0 0 0;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .sec-box p {
@@ -119,6 +120,16 @@ hr {
 
 .sec-box #welcome {
   width: 100%;
+}
+
+.sec-box #welcome h1 {
+  font-size: 2.6rem;
+  padding: 4rem 0;
+}
+
+.sec-box #welcome h3 {
+  font-size: 1.55rem;
+  padding: 8rem;
 }
 
 .sec-box #welcome #office {
@@ -131,7 +142,7 @@ hr {
 
 .sec-box #welcome #welcome-info {
   margin: auto;
-  width: 60%;
+  width: 75%;
   text-align: center;
 }
 
@@ -140,7 +151,7 @@ hr {
 }
 
 .sec-box #core-service h3 {
-  font-size: 2.8rem;
+  font-size: 1.5rem;
   font-weight: 400;
   padding: 0;
 }
@@ -151,6 +162,15 @@ hr {
   text-align: center;
 }
 
+.sec-box #core-service #serv-info h1 {
+  font-size: 2.6rem;
+}
+
+.sec-box #core-service #serv-info h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .sec-box #core-service #serv-pics {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,9 +178,9 @@ hr {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 0 5rem 10rem;
 }
 
@@ -169,8 +189,20 @@ hr {
   width: 100%;
 }
 
+.sec-box #core-service #serv-pics div h3 {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.sec-box #core-service #serv-pics div p {
+  font-size: 2rem;
+}
+
 .sec-box #core-service #serv-pics div img {
   width: 100%;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -187,6 +219,10 @@ hr {
 
 .third-box #speak-consultant #speak-img {
   height: 15vh;
+}
+
+.third-box #speak-consultant #speak-img #spk-imgcon {
+  padding: 0;
 }
 
 .third-box #speak-consultant #speak-img div {
@@ -215,6 +251,7 @@ hr {
 
 .third-box #speak-consultant #vismis div {
   text-align: center;
+  margin: 0 auto;
 }
 
 .third-box #speak-consultant #vismis div hr {
@@ -223,12 +260,12 @@ hr {
 }
 
 .third-box #speak-consultant #vismis div h1 {
-  font-size: 2.8rem;
+  font-size: 1.9rem;
   font-weight: 300;
 }
 
 .third-box #speak-consultant #vismis div p {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .third-box #speak-consultant div div {
@@ -255,7 +292,7 @@ hr {
 }
 
 .fourth-box #meet-the-team h1 {
-  font-size: 4rem;
+  font-size: 7rem;
   padding: 2rem;
 }
 
@@ -272,14 +309,14 @@ hr {
 }
 
 .fourth-box #meet-the-team #team-pics div img {
-  width: 50%;
+  width: 60%;
   border-radius: 50%;
   border: 8px #dddddd Solid;
 }
 
 .fourth-box #meet-the-team #team-pics div h3 {
-  font-size: 1.6rem;
-  font-weight: 300;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .fourth-box #meet-the-team #team-pics div h4 {
@@ -288,19 +325,19 @@ hr {
 }
 
 .fourth-box #meet-the-team #team-pics div p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .fifth-box {
   width: 100%;
-  padding-bottom: 3vh;
+  padding-bottom: 2vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9)));
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
 }
 
 .fifth-box #testimonials {
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   text-align: center;
 }
 
@@ -317,7 +354,7 @@ hr {
 }
 
 .fifth-box #testimonials #testi-pics div {
-  padding: 5rem;
+  padding: 4rem;
   min-width: 40%;
 }
 
@@ -341,19 +378,19 @@ hr {
 }
 
 .fifth-box #testimonials #testi-pics div .stars {
-  width: 70%;
   padding: 20px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .fifth-box #testimonials #testi-pics div .stars img {
-  width: 20%;
-  height: 20%;
-  width: 20px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   margin: 0 10px;
 }
 
@@ -367,9 +404,9 @@ hr {
 }
 
 .sixth-box #clients h1 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .sixth-box #clients .client-brand {
@@ -528,7 +565,7 @@ footer .contact-us .contact .schedule button {
     height: 100vh;
     background: url("../src/HRBreakoutRoom_files/20210126_223132_0001.png");
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
   }
   .first-box nav {
     padding: 8rem 1rem;
@@ -542,7 +579,7 @@ footer .contact-us .contact .schedule button {
     margin: auto;
   }
   .first-box #banner .banner-details {
-    width: 45%;
+    width: 35%;
     padding: 10rem 0 0 5rem;
   }
   .first-box #banner .banner-details #smart-hr img {
@@ -551,22 +588,77 @@ footer .contact-us .contact .schedule button {
   .first-box #banner .banner-details #clicks img {
     width: 40%;
   }
-  .sec-box h1 {
-    font-size: 4.8rem;
+  .sec-box #welcome {
+    width: 100%;
+  }
+  .sec-box #welcome h1 {
+    font-size: 3.6rem;
+    padding: 4rem 0;
+  }
+  .sec-box #welcome h3 {
+    font-size: 2.6rem;
     padding: 8rem;
   }
-  .sec-box h3 {
-    font-size: 3.5rem;
-    padding: 8rem;
+  .sec-box #welcome #office {
+    width: 100%;
   }
-  .sec-box h5 {
-    font-size: 2.7rem;
-    padding: 4rem 0 0 0;
-    font-weight: 300;
+  .sec-box #welcome #office img {
+    width: 100%;
   }
-  .sec-box p {
+  .sec-box #welcome #welcome-info {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+  }
+  .sec-box #core-service {
+    width: 100%;
+  }
+  .sec-box #core-service h3 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding: 0;
+  }
+  .sec-box #core-service #serv-info {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  .sec-box #core-service #serv-info h1 {
+    font-size: 4.4rem;
+  }
+  .sec-box #core-service #serv-info h5 {
     font-size: 2.2rem;
-    font-weight: 300;
+    font-weight: 700;
+  }
+  .sec-box #serv-pics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 5rem 10rem;
+  }
+  .sec-box #serv-pics div {
+    padding: 1rem;
+    width: 100%;
+  }
+  .sec-box #serv-pics div h3 {
+    font-size: 2.1rem;
+    font-weight: 700;
+  }
+  .sec-box #serv-pics div p {
+    font-size: 2rem;
+  }
+  .sec-box #serv-pics div img {
+    width: 100%;
+    height: 30vh;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .third-box {
     height: 100vh;
@@ -609,11 +701,11 @@ footer .contact-us .contact .schedule button {
     margin: 2rem auto;
   }
   .third-box #speak-consultant #vismis div h1 {
-    font-size: 2.8rem;
+    font-size: 1.9rem;
     font-weight: 300;
   }
   .third-box #speak-consultant #vismis div p {
-    font-size: 3.8rem;
+    font-size: 2.9rem;
   }
   .third-box #speak-consultant div div {
     width: 25%;
@@ -634,7 +726,7 @@ footer .contact-us .contact .schedule button {
   }
   .fifth-box #testimonials h1 {
     font-size: 8rem;
-    padding: 10rem 0 0;
+    padding: 15rem 0 0;
   }
   .fifth-box #testimonials #testi-pics {
     display: -webkit-box;
@@ -668,8 +760,8 @@ footer .contact-us .contact .schedule button {
     text-align: center;
   }
   .sixth-box #clients h1 {
-    font-size: 2.7rem;
-    font-weight: 300;
+    font-size: 1.9rem;
+    font-weight: 600;
     padding: 4rem;
   }
   .sixth-box #clients .client-brand {
@@ -768,10 +860,13 @@ footer .contact-us .contact .schedule button {
     padding: 2rem 2rem;
   }
   footer .contact-us .contact h2 {
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 2.4rem;
+    font-weight: 400;
   }
   footer .contact-us .contact p {
+    font-size: 2rem;
+  }
+  footer .contact-us .contact p a {
     font-size: 2rem;
   }
   footer .contact-us .contact div {

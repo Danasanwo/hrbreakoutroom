@@ -260,8 +260,8 @@ hr {
       div {
         padding: 5rem;
         img {
-          width: 15vw;
-          height: 15vw;
+          width: 8vw;
+          height: 8vw;
           object-fit: fill;
           object-position: center;
           border-radius: 50%;
@@ -296,7 +296,7 @@ hr {
     width: 100%;
     text-align: center;
     h1 {
-      font-size: 2.7rem;
+      font-size: 1.9rem;
       font-weight: 300;
       padding: 4rem;
     }
@@ -485,3 +485,47 @@ footer {
     font-size: 10px;
   }
 }
+
+
+  h1 {
+      font-size: 2.6rem;
+      padding: 4rem 0;
+    }
+    h3 {
+      font-size: 1.4rem;
+      // font-weight: 400;
+      padding: 8rem;
+    }
+
+    #office {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    #welcome-info {
+      margin: auto;
+      //   padding: 1rem;
+      width: 60%;
+      text-align: center;
+    }
+  }
+  #core-service {
+    width: 100%;
+    h3 {
+      font-size: 2.8rem;
+      font-weight: 400;
+      padding: 0;
+    }
+    #serv-info {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      h1 {
+        font-size: 2.6rem;
+      }
+      h5 {
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+    }

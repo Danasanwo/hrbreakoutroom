@@ -309,8 +309,8 @@ hr {
 }
 
 .fifth-box #testimonials #testi-pics div img {
-  width: 15vw;
-  height: 15vw;
+  width: 8vw;
+  height: 8vw;
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: center;
@@ -351,7 +351,7 @@ hr {
 }
 
 .sixth-box #clients h1 {
-  font-size: 2.7rem;
+  font-size: 1.9rem;
   font-weight: 300;
   padding: 4rem;
 }
