@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+:root {
+  scroll-behavior: smooth;
+  font-size: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+hr {
+  width: 15%;
+  margin: auto;
+  height: 4px;
+  background-color: #ffbd59;
+  border: none;
+}
+
+.first-box {
+  width: 100%;
+  height: 95vh;
+  margin-bottom: 10vh;
+  background: url("../src/HRBreakoutRoom_files/20210126_223132_0001.png"), url("../src/HRBreakoutRoom_files/bantersnaps-5U_28ojjgms-unsplash.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.first-box nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5rem 1rem;
+}
+
+.first-box nav .logo {
+  width: 30%;
+}
+
+.first-box nav .logo img {
+  width: 70%;
+}
+
+.first-box nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.first-box nav ul li {
+  font-size: 2.4rem;
+}
+
+.first-box nav ul li a {
+  text-shadow: rgba(255, 189, 89, 0.4) 0.88388px 0.88388px 0px;
+  text-decoration: none;
+  color: #6e627f;
+}
+
+.first-box #banner {
+  padding: 5rem 15rem;
+}
+
+.sec-box {
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+}
+
+.sec-box h1 {
+  font-size: 4.8rem;
+  padding: 8rem;
+}
+
+.sec-box h3 {
+  font-size: 3.5rem;
+  padding: 8rem;
+}
+
+.sec-box h5 {
+  font-size: 2.7rem;
+  padding: 4rem 0 0 0;
+  font-weight: 300;
+}
+
+.sec-box p {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.sec-box #welcome {
+  width: 100%;
+  height: 100vh;
+}
+
+.sec-box #welcome #office {
+  width: 100%;
+}
+
+.sec-box #welcome #office img {
+  width: 100%;
+}
+
+.sec-box #welcome #welcome-info {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.sec-box #core-service {
+  width: 100%;
+}
+
+.sec-box #core-service h3 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  padding: 0;
+}
+
+.sec-box #core-service #serv-info {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.sec-box #core-service #serv-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5rem 10rem;
+}
+
+.sec-box #core-service #serv-pics div {
+  padding: 1rem;
+  width: 100%;
+}
+
+.sec-box #core-service #serv-pics div img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.third-box {
+  width: 100%;
+  height: 100vh;
+}
+
+.third-box #speak-consultant {
+  width: 100%;
+  height: 100%;
+}
+
+.third-box #speak-consultant #speak-img {
+  height: 45%;
+}
+
+.third-box #speak-consultant #speak-img div {
+  height: 100%;
+  width: 100%;
+  padding-top: 8vh;
+}
+
+.third-box #speak-consultant #speak-img div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.third-box #speak-consultant #vismis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rem 0 5rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.third-box #speak-consultant #vismis div {
+  text-align: center;
+  width: 30%;
+}
+
+.third-box #speak-consultant #vismis div hr {
+  width: 20%;
+  margin: 2rem auto;
+}
+
+.third-box #speak-consultant #vismis div h1 {
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+
+.third-box #speak-consultant #vismis div p {
+  font-size: 3.8rem;
+}
+
+.third-box #speak-consultant div div {
+  width: 25%;
+  margin: auto;
+}
+
+.third-box #speak-consultant div div img {
+  width: 100%;
+}
+
+.fourth-box {
+  width: 100%;
+  height: 80vh;
+  margin-top: 20vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("../src/HRBreakoutRoom_files/s3.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../src/HRBreakoutRoom_files/s3.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid #000000;
+}
+
+.fourth-box #meet-the-team {
+  text-align: center;
+}
+
+.fourth-box #meet-the-team h1 {
+  font-size: 8rem;
+  padding: 8rem;
+}
+
+.fourth-box #meet-the-team #team-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.fourth-box #meet-the-team #team-pics div {
+  padding: 2rem;
+}
+
+.fourth-box #meet-the-team #team-pics div img {
+  width: 50%;
+  border-radius: 50%;
+  border: 8px #dddddd Solid;
+}
+
+.fourth-box #meet-the-team #team-pics div h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.fourth-box #meet-the-team #team-pics div h4 {
+  font-size: 2.3rem;
+  color: #ffbd59;
+}
+
+.fourth-box #meet-the-team #team-pics div p {
+  font-size: 2rem;
+}
+
+.fifth-box {
+  width: 100%;
+  height: 110vh;
+  padding-bottom: 10vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9)));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+.fifth-box #testimonials {
+  text-align: center;
+}
+
+.fifth-box #testimonials h1 {
+  font-size: 8rem;
+  padding: 10rem;
+}
+
+.fifth-box #testimonials #testi-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fifth-box #testimonials #testi-pics div {
+  padding: 5rem;
+}
+
+.fifth-box #testimonials #testi-pics div img {
+  width: 15vw;
+  height: 15vw;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+
+.fifth-box #testimonials #testi-pics div h2 {
+  font-size: 3.5rem;
+}
+
+.fifth-box #testimonials #testi-pics div p {
+  font-size: 2.5rem;
+  text-align: justify;
+}
+
+.fifth-box #testimonials #testi-pics div .stars {
+  width: 40%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fifth-box #testimonials #testi-pics div .stars img {
+  max-width: 40px;
+  max-height: 40px;
+  margin: 0 10px;
+}
+
+.sixth-box {
+  width: 100%;
+}
+
+.sixth-box #clients {
+  width: 100%;
+  text-align: center;
+}
+
+.sixth-box #clients h1 {
+  font-size: 2.7rem;
+  font-weight: 300;
+  padding: 4rem;
+}
+
+.sixth-box #clients .client-brand {
+  padding-bottom: 10rem;
+  width: 100%;
+}
+
+.sixth-box #clients .client-brand img {
+  width: 16%;
+}
+
+.sixth-box #clients .done-so-far {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.sixth-box #clients .done-so-far div {
+  width: 50%;
+}
+
+.sixth-box #clients .done-so-far div img {
+  width: 100%;
+}
+
+.sixth-box #clients .done-so-far div iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.sixth-box #clients .get-in-touch {
+  width: 100%;
+  height: 8rem;
+  background-color: #2e2528;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8rem;
+}
+
+.sixth-box #clients .get-in-touch button {
+  width: 30%;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-size: 2.8rem;
+  color: white;
+}
+
+.sixth-box #clients .get-in-touch button img {
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+}
+
+footer .founders {
+  width: 100%;
+  height: 70%;
+  background: url("../src/HRBreakoutRoom_files/s3(7).jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+footer .founders img {
+  height: 100%;
+  max-width: 60%;
+}
+
+footer .contact-us {
+  width: 100%;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .contact-us #med-sche {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contact-us .contact {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 2rem;
+}
+
+footer .contact-us .contact h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+footer .contact-us .contact p {
+  font-size: 2rem;
+}
+
+footer .contact-us .contact div {
+  padding: 2rem 20px;
+}
+
+footer .contact-us .contact .s-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .contact-us .contact .s-media img {
+  max-width: 60px;
+  padding: 0 1rem;
+}
+
+footer .contact-us .contact .schedule button {
+  width: 25vw;
+  border: 5px black solid;
+  background-color: #ffbd59;
+  height: 8vh;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  :root {
+    font-size: 5px;
+  }
+  .first-box {
+    height: 30vh;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  :root {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html,
+  :root {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html,
+  :root {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

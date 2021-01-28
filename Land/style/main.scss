@@ -1,0 +1,487 @@
+$main-color: #000000;
+$accent-color: #222222;
+$font-size: 10px;
+$font-family: "Open Sans", sans-serif;
+$box-border: 5px solid #000000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+:root {
+  scroll-behavior: smooth;
+  font-size: 8px;
+  font-family: $font-family;
+}
+
+body {
+  width: 100vw;
+}
+
+hr {
+  width: 15%;
+  margin: auto;
+  height: 4px;
+  background-color: rgb(255, 189, 89);
+  border: none;
+}
+
+.first-box {
+  width: 100%;
+  height: 95vh;
+  margin-bottom: 10vh;
+  //   background: url("../src/HRBreakoutRoom_files/bantersnaps-5U_28ojjgms-unsplash.jpg"),
+  background: url("../src/HRBreakoutRoom_files/20210126_223132_0001.png"),
+    url("../src/HRBreakoutRoom_files/bantersnaps-5U_28ojjgms-unsplash.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+
+  nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5rem 1rem;
+    .logo {
+      width: 30%;
+      img {
+        width: 70%;
+      }
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      width: 40%;
+      justify-content: space-around;
+
+      li {
+        font-size: 2.4rem;
+        a {
+          text-shadow: rgba(255, 189, 89, 0.4) 0.883883px 0.883883px 0px;
+          text-decoration: none;
+          color: rgb(110, 98, 127);
+        }
+      }
+    }
+  }
+
+  #banner {
+    padding: 5rem 15rem;
+  }
+}
+.sec-box {
+  border-top: $box-border;
+  border-bottom: $box-border;
+
+  h1 {
+    font-size: 4.8rem;
+    padding: 8rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+    // font-weight: 400;
+    padding: 8rem;
+  }
+  h5 {
+    font-size: 2.7rem;
+    padding: 4rem 0 0 0;
+    font-weight: 300;
+  }
+  p {
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+  #welcome {
+    width: 100%;
+    height: 100vh;
+    #office {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    #welcome-info {
+      margin: auto;
+      //   padding: 1rem;
+      width: 60%;
+      text-align: center;
+    }
+  }
+  #core-service {
+    width: 100%;
+    h3 {
+      font-size: 2.8rem;
+      font-weight: 400;
+      padding: 0;
+    }
+    #serv-info {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+    }
+    #serv-pics {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 5rem 10rem;
+      div {
+        padding: 1rem;
+        width: 100%;
+
+        img {
+          width: 100%;
+          //   height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+.third-box {
+  width: 100%;
+  height: 100vh;
+  #speak-consultant {
+    width: 100%;
+    height: 100%;
+    #speak-img {
+      height: 45%;
+      div {
+        height: 100%;
+        width: 100%;
+        padding-top: 8vh;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    #vismis {
+      display: flex;
+      padding: 10rem 0 5rem;
+      align-items: flex-start;
+      justify-content: space-around;
+      div {
+        text-align: center;
+        width: 30%;
+        hr {
+          width: 20%;
+          margin: 2rem auto;
+        }
+        h1 {
+          font-size: 2.8rem;
+          font-weight: 300;
+        }
+        p {
+          font-size: 3.8rem;
+        }
+      }
+    }
+    div {
+      div {
+        width: 25%;
+        margin: auto;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.fourth-box {
+  width: 100%;
+  height: 80vh;
+  margin-top: 20vh;
+  //   padding-bottom: 20vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../src/HRBreakoutRoom_files/s3.jpg");
+  background-size: cover;
+  background-position: center;
+  #meet-the-team {
+    text-align: center;
+    h1 {
+      font-size: 8rem;
+      padding: 8rem;
+    }
+    #team-pics {
+      display: flex;
+      padding: 2rem;
+      div {
+        padding: 2rem;
+        img {
+          width: 50%;
+          border-radius: 50%;
+          border: 8px #dddddd Solid;
+        }
+        h3 {
+          font-size: 2.5rem;
+          font-weight: 300;
+        }
+        h4 {
+          font-size: 2.3rem;
+          color: rgb(255, 189, 89);
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  border-bottom: $box-border;
+}
+
+.fifth-box {
+  width: 100%;
+  height: 110vh;
+  padding-bottom: 10vh;
+
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
+  // url("../src/HRBreakoutRoom_files/s3.jpg");
+  #testimonials {
+    text-align: center;
+    h1 {
+      font-size: 8rem;
+      padding: 10rem;
+    }
+    #testi-pics {
+      display: flex;
+      //   padding: 10rem;
+      div {
+        padding: 5rem;
+        img {
+          width: 15vw;
+          height: 15vw;
+          object-fit: fill;
+          object-position: center;
+          border-radius: 50%;
+        }
+        h2 {
+          font-size: 3.5rem;
+          //   font-weight: 300;
+        }
+        p {
+          font-size: 2.5rem;
+          text-align: justify;
+        }
+        .stars {
+          width: 40%;
+          margin: auto;
+          display: flex;
+          img {
+            max-width: 40px;
+            max-height: 40px;
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sixth-box {
+  width: 100%;
+
+  #clients {
+    width: 100%;
+    text-align: center;
+    h1 {
+      font-size: 2.7rem;
+      font-weight: 300;
+      padding: 4rem;
+    }
+    .client-brand {
+      padding-bottom: 10rem;
+      width: 100%;
+      img {
+        width: 16%;
+      }
+    }
+    .done-so-far {
+      display: flex;
+      width: 100%;
+      padding-bottom: 5rem;
+      div {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+
+        iframe {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .get-in-touch {
+      width: 100%;
+      height: 8rem;
+      background-color: rgb(46, 37, 40);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 8rem;
+      button {
+        width: 30%;
+        background-color: transparent;
+        border: 0;
+        outline: none;
+        font-size: 2.8rem;
+        color: white;
+        img {
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  .founders {
+    width: 100%;
+    height: 70%;
+    background: url("../src/HRBreakoutRoom_files/s3\(7\).jpg");
+    background-position: center center;
+    background-size: cover;
+    img {
+      height: 100%;
+      max-width: 60%;
+    }
+  }
+  .contact-us {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    #mail-phone {
+    }
+    #med-sche {
+      align-items: center;
+    }
+    .contact {
+      width: 70%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 2rem 2rem;
+
+      h2 {
+        font-size: 3rem;
+        font-weight: 300;
+      }
+      p {
+        font-size: 2rem;
+      }
+      div {
+        padding: 2rem 20px;
+      }
+      .s-media {
+        display: flex;
+        justify-content: space-around;
+        img {
+          max-width: 60px;
+          padding: 0 1rem;
+        }
+      }
+
+      .schedule {
+        button {
+          width: 25vw;
+          border: 5px black solid;
+          background-color: rgb(255, 189, 89);
+          height: 8vh;
+          font-size: 2rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  :root {
+    font-size: 5px;
+  }
+
+  .first-box {
+    height: 30vh;
+    margin-bottom: 0;
+  }
+
+  .sec-box {
+  }
+
+  .third-box {
+  }
+
+  .fourth-box {
+  }
+
+  .fifth-box {
+  }
+  .sixth-box {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  :root {
+    font-size: 6px;
+  }
+}
+
+// @media screen and (max-width: 1024px) {
+//   html,
+//   :root {
+//     font-size: 7px;
+//   }
+
+//   .sec-box {
+//     h1 {
+//       font-size: 4rem;
+//       padding: 8rem;
+//     }
+//     h3 {
+//       font-size: 3rem;
+//       // font-weight: 400;
+//       padding: 8rem;
+//     }
+//     h5 {
+//       font-size: 2.2rem;
+//       padding: 4rem 0 0 0;
+//       font-weight: 300;
+//     }
+//     p {
+//       font-size: 1.8rem;
+//       font-weight: 300;
+//     }
+//   }
+// }
+
+@media screen and (max-width: 1200px) {
+  html,
+  :root {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html,
+  :root {
+    font-size: 10px;
+  }
+}
